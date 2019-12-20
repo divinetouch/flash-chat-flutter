@@ -47,7 +47,6 @@ class _WelcomeScreenState extends State<WelcomeScreen>
 
   @override
   void dispose() {
-    // TODO: implement dispose
     super.dispose();
     controller.dispose();
   }
@@ -85,7 +84,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
               height: 48.0,
             ),
             RoundedButton(
-              title: 'log in',
+              title: 'Log In',
               colour: Colors.lightBlueAccent,
               onPressed: () {
                 //Go to login screen.
